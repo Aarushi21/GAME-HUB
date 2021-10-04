@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="board" id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message show" id="winningMessage">
+      <div data-winning-message-text></div>
+      <div>2 Player</div>
+      <button id="restartButton">START</button>
+      <div>Single Player</div>
+      <div class="AI-btn_wrapper">
+        <button id="AIfirst">AI GOES FIRST</button>
+        <button id="HumanFirst">HUMAN GOES FIRST</button>
+      </div>
+    </div>
+  </body>
+</html>
